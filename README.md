@@ -1,5 +1,5 @@
 <h1 align="center"> Hi there! My name is Dmitry) 👋
-
+<h3 align="center"> I am an IT specialist from Russia 🇷🇺</h3>
 <!--
 **dimoroz772/dimoroz772** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
