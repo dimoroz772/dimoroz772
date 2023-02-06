@@ -9,4 +9,3 @@
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dimoroz772&theme=dark"/></a>
 </p>
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dimoroz772&repo=Domain_connection_between_Linux_and_Windows)]([https://github.com/anuraghazra/github-readme-stats](https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows))
