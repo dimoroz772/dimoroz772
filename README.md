@@ -1,4 +1,4 @@
-<h1 align="center"> Hi there! My name is Dmitry) 👋
+<h1 align="center"> Hi there! My name is Dmitriy) 👋
 <h2 align="center"> I am an IT specialist from Russia 🇷🇺</h2>
 
 💻 If you take a look at my repositories, you can find many different instructions that I think you will like) I try to work with all Linux and Windows operating systems including server versions and put everything only the most necessary on [github.com](https://github.com/)
