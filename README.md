@@ -1,4 +1,4 @@
-<h1 align="center"> Hi there! I'm Dmitriy 👋
+<h1 align="center"> Hi there! My name is Dmitry) 👋
 
 <!--
 **dimoroz772/dimoroz772** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
