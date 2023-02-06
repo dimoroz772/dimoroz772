@@ -5,4 +5,6 @@
 
 📈 I am also a certified specialist in the Russian operating system Linux RedOS. The Linux RedOS operating system, in my opinion, is an analogue of the Linux CentOS operating system.
   
-[![GitHub Streak](https://streak-stats.demolab.com?user=dimoroz772)](https://git.io/streak-stats)
+<p align="center">
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dimoroz772&theme=dark"/></a>
+</p>
