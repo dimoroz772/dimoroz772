@@ -27,6 +27,8 @@
   
 ✅ [Linux_Fedora](https://github.com/dimoroz772/Linux_Fedora)
   
+✅ [Windows_Upgrade_Or_Install_Keys](https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys/blob/main/README.md)
+  
 ✅ [DDT4ALL](https://github.com/dimoroz772/DDT4ALL)
   
 I hope that you will find something new and interesting for yourself in the repositories of my profile) Peaceful sky to all!)
