@@ -27,6 +27,8 @@
   
 ✅ [Linux_Fedora](https://github.com/dimoroz772/Linux_Fedora)
   
+✅ [Scripts](https://github.com/dimoroz772/Scripts)
+  
 ✅ [Windows_Upgrade_Or_Install_Keys](https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys/blob/main/README.md)
   
 ✅ [DDT4ALL](https://github.com/dimoroz772/DDT4ALL)
