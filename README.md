@@ -5,7 +5,7 @@
   
 <h4> I am also certified in:</h4>
   
-✅ CCNA Security;
+📜 CCNA Security;
   
 ✅ CCNA Routing and Switching: Routing and Switching Essentials;
 
