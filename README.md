@@ -17,21 +17,21 @@
 
 <h4> At the moment, all my work instructions can be found in the following repositories:</h4>
   
-✅ [Domain_connection_between_Linux_and_Windows](https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows)
+✓ [Domain_connection_between_Linux_and_Windows](https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows)
   
-✅ [Linux_RedOS](https://github.com/dimoroz772/Linux_RedOS)
+✓ [Linux_RedOS](https://github.com/dimoroz772/Linux_RedOS)
   
-✅ [Linux_CentOS](https://github.com/dimoroz772/Linux_CentOS)
+✓ [Linux_CentOS](https://github.com/dimoroz772/Linux_CentOS)
   
-✅ [Linux_ALT](https://github.com/dimoroz772/Linux_ALT)
+✓ [Linux_ALT](https://github.com/dimoroz772/Linux_ALT)
   
-✅ [Linux_Fedora](https://github.com/dimoroz772/Linux_Fedora)
+✓ [Linux_Fedora](https://github.com/dimoroz772/Linux_Fedora)
   
-✅ [Scripts](https://github.com/dimoroz772/Scripts)
+✓ [Scripts](https://github.com/dimoroz772/Scripts)
   
-✅ [Windows_Upgrade_Or_Install_Keys](https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys/blob/main/README.md)
+✓ [Windows_Upgrade_Or_Install_Keys](https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys/blob/main/README.md)
   
-✅ [DDT4ALL](https://github.com/dimoroz772/DDT4ALL)
+✓ [DDT4ALL](https://github.com/dimoroz772/DDT4ALL)
   
 I hope that you will find something new and interesting for yourself in the repositories of my profile) Peaceful sky to all!)
   
