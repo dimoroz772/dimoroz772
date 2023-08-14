@@ -21,7 +21,7 @@
   
 ✔ [Linux_RedOS](https://github.com/dimoroz772/Linux_RedOS)
   
-✔ [Linux_CentOS](https://github.com/dimoroz772/Linux_CentOS)
+ [Linux_CentOS](https://github.com/dimoroz772/Linux_CentOS)
   
 ✔ [Linux_ALT](https://github.com/dimoroz772/Linux_ALT)
   
