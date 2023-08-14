@@ -32,6 +32,8 @@
 ±∞ [Windows_Upgrade_Or_Install_Keys](https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys/blob/main/README.md)
   
 ±∞ [DDT4ALL](https://github.com/dimoroz772/DDT4ALL)
+
+±∞ [My_ideal_software_IT-environment](https://github.com/dimoroz772/My_ideal_software_IT-environment)
   
 I hope that you will find something new and interesting for yourself in the repositories of my profile) Peaceful sky to all!)
   
