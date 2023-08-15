@@ -42,9 +42,6 @@ I hope that you will find something new and interesting for yourself in the repo
 <p align="center">
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dimoroz772&theme=dark"/></a>
 </p>
-
-
-![](https://komarev.com/ghpvc/?username=dimoroz772)<br/>
  <br/>
  
 <svg xmlns="https://komarev.com/ghpvc/?username=dimoroz772" width="113" height="20">
