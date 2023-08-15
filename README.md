@@ -18,7 +18,9 @@
 
 <h4> At the moment, all my work instructions can be found in the following repositories:</h4>
 
-- [Domain_connection_between_Linux_and_Windows](https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows/)<br/>
+- [Domain_connection_between_Linux_and_Windows](https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows)<br/>
+
+<a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows">Domain_connection_between_Linux_and_Windows</a>
 
 - [Linux_RedOS](https://github.com/dimoroz772/Linux_RedOS)<br/>
 
