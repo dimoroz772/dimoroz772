@@ -22,9 +22,9 @@
 
 - <a href="https://github.com/dimoroz772/Linux_RedOS">Linux_RedOS</a><br/>
 
-- [Linux_CentOS](https://github.com/dimoroz772/Linux_CentOS)<br/>
+- <a href="https://github.com/dimoroz772/Linux_CentOS">Linux_CentOS</a><br/>
 
-- [Linux_ALT](https://github.com/dimoroz772/Linux_ALT)<br/>
+- <a href="https://github.com/dimoroz772/Linux_ALT">Linux_ALT</a><br/>
 
 - [Linux_Fedora](https://github.com/dimoroz772/Linux_Fedora)<br/>
 
