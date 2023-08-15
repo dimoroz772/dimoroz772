@@ -19,7 +19,7 @@
 
 <h4> <i>At the moment, all my work instructions can be found in the following repositories:</i></h4>
 
-&#8226; <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows">Domain_connection_between_Linux_and_Windows</a><br/>
+<i>&#8226; <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows">Domain_connection_between_Linux_and_Windows</a><br/><i/>
 
 &#8226; <a href="https://github.com/dimoroz772/Linux_RedOS"><i>Linux_RedOS</a><i/><br/>
 
