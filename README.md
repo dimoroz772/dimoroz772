@@ -45,4 +45,4 @@ I hope that you will find something new and interesting for yourself in the repo
 
 
 ![](https://komarev.com/ghpvc/?username=dimoroz772)
-<iframe src="https://komarev.com/ghpvc/?username=dimoroz772">
+<iframe src="komarev.com/ghpvc/?username=dimoroz772">
