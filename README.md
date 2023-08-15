@@ -39,4 +39,4 @@
 I hope that you will find something new and interesting for yourself in the repositories of my profile) Peaceful sky to all!)
  <br/>
  
-[![GitHub Streak](https://streak-stats.demolab.com/?user=dimoroz772)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=dimoroz772&theme=tokyonight-duo&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
