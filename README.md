@@ -41,5 +41,5 @@ I hope that you will find something new and interesting for yourself in the repo
  <br/>
 
 <p align="center">
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dimoroz772&theme=tokyonight-duo"/></a>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dimoroz772&theme=tokyonight-duo&hide_border=true"/></a>
 </p>
