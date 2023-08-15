@@ -21,21 +21,21 @@
 
 <i>&#8226; <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows">Domain_connection_between_Linux_and_Windows</a><br/><i/>
 
-&#8226; <a href="https://github.com/dimoroz772/Linux_RedOS"><i>Linux_RedOS</a><i/><br/>
+<i>&#8226; <a href="https://github.com/dimoroz772/Linux_RedOS">Linux_RedOS</a><br/><i/>
 
-&#8226; <a href="https://github.com/dimoroz772/Linux_CentOS"><i>Linux_CentOS<i/></a><br/>
+<i>&#8226; <a href="https://github.com/dimoroz772/Linux_CentOS">Linux_CentOS</a><br/><i/>
 
-&#8226; <a href="https://github.com/dimoroz772/Linux_ALT"><i>Linux_ALT<i/></a><br/>
+<i>&#8226; <a href="https://github.com/dimoroz772/Linux_ALT">Linux_ALT</a><br/><i/>
 
-&#8226; <a href="https://github.com/dimoroz772/Linux_Fedora"><i>Linux_Fedora<i/></a><br/>
+<i>&#8226; <a href="https://github.com/dimoroz772/Linux_Fedora">Linux_Fedora</a><br/><i/>
 
-&#8226; <a href="https://github.com/dimoroz772/Scripts"><i>Scripts<i/></a><br/>
+<i>&#8226; <a href="https://github.com/dimoroz772/Scripts">Scripts</a><br/><i/>
 
-&#8226; <a href="https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys"><i>Windows_Upgrade_Or_Install_Keys<i/></a><br/>
+<i>&#8226; <a href="https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys">Windows_Upgrade_Or_Install_Keys</a><br/><i/>
 
-&#8226; <a href="https://github.com/dimoroz772/DDT4ALL"><i>DDT4ALL<i/></a><br/>
+<i>&#8226; <a href="https://github.com/dimoroz772/DDT4ALL">DDT4ALL</a><br/><i/>
 
-&#8226; <a href="https://github.com/dimoroz772/My_ideal_software_IT-environment"><i>My_ideal_software_IT-environment<i/></a><br/>
+<i>&#8226; <a href="https://github.com/dimoroz772/My_ideal_software_IT-environment">My_ideal_software_IT-environment</a><br/><i/>
  <br/>
 <i>I hope that you will find something new and interesting for yourself in the repositories of my profile) Peaceful sky to all!)<i/>
  <br/>
