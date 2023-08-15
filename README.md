@@ -26,15 +26,15 @@
 
 - <a href="https://github.com/dimoroz772/Linux_ALT">Linux_ALT</a><br/>
 
-- [Linux_Fedora](https://github.com/dimoroz772/Linux_Fedora)<br/>
+- <a href="https://github.com/dimoroz772/Linux_Fedora">Linux_Fedora</a><br/>
 
-- [Scripts](https://github.com/dimoroz772/Scripts)<br/>
+- <a href="https://github.com/dimoroz772/Scripts">Scripts</a><br/>
 
-- [Windows_Upgrade_Or_Install_Keys](https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys/blob/main/README.md)<br/>
+- <a href="https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys">Windows_Upgrade_Or_Install_Keys</a><br/>
 
-- [DDT4ALL](https://github.com/dimoroz772/DDT4ALL)<br/>
+- <a href="https://github.com/dimoroz772/DDT4ALL">DDT4ALL</a><br/>
 
-- [My_ideal_software_IT-environment](https://github.com/dimoroz772/My_ideal_software_IT-environment)<br/>
+- <a href="https://github.com/dimoroz772/My_ideal_software_IT-environment">My_ideal_software_IT-environment</a><br/>
 
 I hope that you will find something new and interesting for yourself in the repositories of my profile) Peaceful sky to all!)
 
