@@ -38,4 +38,4 @@
  <br/>
 I hope that you will find something new and interesting for yourself in the repositories of my profile) Peaceful sky to all!)
  <br/>
- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dimoroz772)](https://github.com/anuraghazra/github-readme-stats)
+ ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dimoroz772&show_icons=true&theme=radical)
