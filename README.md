@@ -8,33 +8,33 @@
 
 &#8226;  CCNA Security;<br/>
 
--  CCNA Routing and Switching: Routing and Switching Essentials;<br/>
+&#8226;  CCNA Routing and Switching: Routing and Switching Essentials;<br/>
 
--  CCNA Routing and Switching: Introduction to Networks;<br/>
+&#8226;  CCNA Routing and Switching: Introduction to Networks;<br/>
 
--  I am also an expert in evaluating demonstration exams in Network and System Administration;<br/>
+&#8226;  I am also an expert in evaluating demonstration exams in Network and System Administration;<br/>
 
--  Certified specialist of the Russian operating system Linux RedOS.<br/>
+&#8226;  Certified specialist of the Russian operating system Linux RedOS.<br/>
 
 <h4> At the moment, all my work instructions can be found in the following repositories:</h4>
 
-- <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows">Domain_connection_between_Linux_and_Windows</a><br/>
+&#8226; <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows">Domain_connection_between_Linux_and_Windows</a><br/>
 
-- <a href="https://github.com/dimoroz772/Linux_RedOS">Linux_RedOS</a><br/>
+&#8226; <a href="https://github.com/dimoroz772/Linux_RedOS">Linux_RedOS</a><br/>
 
-- <a href="https://github.com/dimoroz772/Linux_CentOS">Linux_CentOS</a><br/>
+&#8226; <a href="https://github.com/dimoroz772/Linux_CentOS">Linux_CentOS</a><br/>
 
-- <a href="https://github.com/dimoroz772/Linux_ALT">Linux_ALT</a><br/>
+&#8226; <a href="https://github.com/dimoroz772/Linux_ALT">Linux_ALT</a><br/>
 
-- <a href="https://github.com/dimoroz772/Linux_Fedora">Linux_Fedora</a><br/>
+&#8226; <a href="https://github.com/dimoroz772/Linux_Fedora">Linux_Fedora</a><br/>
 
-- <a href="https://github.com/dimoroz772/Scripts">Scripts</a><br/>
+&#8226; <a href="https://github.com/dimoroz772/Scripts">Scripts</a><br/>
 
-- <a href="https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys">Windows_Upgrade_Or_Install_Keys</a><br/>
+&#8226; <a href="https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys">Windows_Upgrade_Or_Install_Keys</a><br/>
 
-- <a href="https://github.com/dimoroz772/DDT4ALL">DDT4ALL</a><br/>
+&#8226; <a href="https://github.com/dimoroz772/DDT4ALL">DDT4ALL</a><br/>
 
-- <a href="https://github.com/dimoroz772/My_ideal_software_IT-environment">My_ideal_software_IT-environment</a><br/>
+&#8226; <a href="https://github.com/dimoroz772/My_ideal_software_IT-environment">My_ideal_software_IT-environment</a><br/>
  <br/>
 I hope that you will find something new and interesting for yourself in the repositories of my profile) Peaceful sky to all!)
  <br/>
