@@ -21,7 +21,7 @@
 
 &#8226; <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows"><i>Domain_connection_between_Linux_and_Windows<i/></a><br/>
 
-&#8226; <a href="https://github.com/dimoroz772/Linux_RedOS"><i>Linux_RedOS<i/></a><br/>
+&#8226; <a href="https://github.com/dimoroz772/Linux_RedOS"><i>Linux_RedOS</a><i/><br/>
 
 &#8226; <a href="https://github.com/dimoroz772/Linux_CentOS"><i>Linux_CentOS<i/></a><br/>
 
