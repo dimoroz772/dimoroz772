@@ -34,6 +34,54 @@ h1 {
     display: block;
     margin: 0 auto;
   }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ li {
+  position: relative;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideIn 0.5s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+li:before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  animation: pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 </style>
 
 
