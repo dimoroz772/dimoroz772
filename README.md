@@ -31,7 +31,7 @@
 
 <i>&#8226; <a href="https://github.com/dimoroz772/Scripts">Scripts</a><br/><i/>
 
-<i>&#8226; <a href="https://dimoroz772.github.io/Windows_Upgrade_Or_Install_Keys/">Windows_Upgrade_Or_Install_Keys</a><br/><i/>
+<i>&#8226; <a href="https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys">Windows_Upgrade_Or_Install_Keys</a><br/><i/>
 
 <i>&#8226; <a href="https://github.com/dimoroz772/DDT4ALL">DDT4ALL</a><br/><i/>
 
