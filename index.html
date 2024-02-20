@@ -1,89 +1,310 @@
+<!DOCTYPE html>
+<html>
 <head>
-  <title>About Dmitriy Morozov</title>
-  <link rel="shortcut icon" href="./Resum.png" type="image/png">
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body{
-    background-image: url('fon.jpg');
-    background-repeat: no-repeat;
+
+* {box-sizing: border-box}
+
+/* Установите высоту корпуса и документа на 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Стиль вкладкок ссылок */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 45%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Стиль содержимого вкладки (и добавить высоту: 100% для полного содержимого страницы) */
+.tabcontent {
+  color: rgb(255, 255, 255);
+  display: none;
+  padding: 112px 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    color: #333;
 }
-a {
-    text-decoration: none;
+
+#GI {background-image: url('GI.jpg');}
+#Repositories {background-image: url('REPO.jpg');}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 22px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+.card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  outline: none;
+  text-align: center;
+  z-index: 2;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+button::after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  color: #fff;
+}
+
+button:hover::after {
+  transform: scale(2) rotate(180deg);
+  background: #1e4a9b;
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+
 </style>
-<style>
-  button {
-    position: static;
-    width:450px;
-    text-align:left;
-    font-size: 18px;
-    background-color: rgba(28,28,28,0);
-    transition: 0.5s;
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('GI', this, 'transparent')"><i>General information</i></button>
+<button class="tablink" onclick="openPage('Repositories', this, 'transparent')" id="defaultOpen"><i>Repositories</i></button>
+
+<div id="GI" class="tabcontent">
+  <h1 align="center"><i>Hi there! My name is Dmitriy)✌️</i></h1>
+  <h2 align="center"><i>I am an IT specialist from Russia 🇷🇺</i></h2>
+  💻 <i>If you take a look at my repositories, you can find many different instructions that I think you will like) I try to work with all Linux and Windows operating systems including server versions and put everything only the most necessary on <a href="https://github.com" style="color:Crimson">GitHub.com</a><i/>
+  <h4><i>I am also certified in:</i></h4>
+  <i>&#8226; <a>CCNA Security</a><i/><br/>  
+  <i>&#8226; <a>CCNA Routing and Switching: Routing and Switching Essentials</a><i/><br/>
+  <i>&#8226; <a>CCNA Routing and Switching: Introduction to Networks</a><i/><br/>
+  <i>&#8226; <a>I am also an expert in evaluating demonstration exams in Network and System Administration</a><i/><br/>
+  <i>&#8226; <a>Certified specialist of the Russian operating system Linux RedOS</a><i/><br/>
+  <br/>
+  <i>I hope that in the repositories of my profile you will find something new and interesting for yourself, and you will also be able to install the software you need according to my instructions) Peaceful skies everyone!)<i/>
+  <br/>
+  <br/>
+  <br/>
+  <p align="center">
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dimoroz772&theme=tokyonight-duo&hide_border=true"/></a>
+  </p>
+  <br/>
+  <br/>
+  <p align="left">
+  <a href="https://git.io/streak-stats"><img src="https://komarev.com/ghpvc/?username=dimoroz772&color=blueviolet"/></a>
+  </p>
+  </div>
+
+<div id="Repositories" class="tabcontent">
+  <div class="card">
+    <img src="LinWin.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
+    <div class="card__content">
+      <p class="card__title">Domain connection between Linux and Windows</p>
+      <form action="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows">
+      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <img src="RedOS.png" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
+    <div class="card__content">
+      <p class="card__title">Linux RedOS</p>
+      <form action="https://dimoroz772.github.io/Linux_RedOS/">
+      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <img src="CentOS.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
+    <div class="card__content">
+      <p class="card__title">Linux CentOS</p>
+      <form action="https://dimoroz772.github.io/Linux_CentOS/">
+      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <img src="ALT.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
+    <div class="card__content">
+      <p class="card__title">Linux ALT</p>
+      <form action="https://dimoroz772.github.io/Linux_ALT/">
+      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Fedora.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
+    <div class="card__content">
+      <p class="card__title">Linux Fedora</p>
+      <form action="https://dimoroz772.github.io/Linux_Fedora/">
+      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Bash.png" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
+    <div class="card__content">
+      <p class="card__title">Scripts</p>
+      <form action="https://dimoroz772.github.io/Scripts/">
+      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Win.png" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
+    <div class="card__content">
+      <p class="card__title">Windows Upgrade Or Install Keys</p>
+      <form action="https://dimoroz772.github.io/Windows_Upgrade_Or_Install_Keys/">
+      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <img src="DDT4ALL.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
+    <div class="card__content">
+      <p class="card__title">DDT4ALL</p>
+      <form action="https://dimoroz772.github.io/DDT4ALL/">
+      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <img src="IT.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
+    <div class="card__content">
+      <p class="card__title">My ideal software IT-environment</p>
+      <p class="card__description">The site is under construction</p>
+      <form action="">
+      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
+      </form>
+    </div>
+  </div>
+  </div>
+</article>
+</div>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Контакт</h3>
+  <p>Свяжитесь с нами или заскочите на чашечку кофе.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>О Нас</h3>
+  <p>Кто мы такие и что делаем.</p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
-  button:hover {
-    background-color: #5cc6ff;
-    border: 2px solid #540094;
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
   }
-</style>
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
 
-
-
-<h1 align="center"><i>Hi there! My name is Dmitriy)✌️</i></h1>
-<h2 align="center"><i>I am an IT specialist from Russia 🇷🇺</i></h2>
-
-
-
-💻 <i>If you take a look at my repositories, you can find many different instructions that I think you will like) I try to work with all Linux and Windows operating systems including server versions and put everything only the most necessary on <a href="https://github.com">GitHub.com</a><i/>
-
-<h4><i>I am also certified in:</i></h4>
-
-<i>&#8226; <a style="color:#333">CCNA Security</a><i/><br/>
-
-<i>&#8226; <a style="color:#333">CCNA Routing and Switching: Routing and Switching Essentials</a><i/><br/>
-
-<i>&#8226; <a style="color:#333">CCNA Routing and Switching: Introduction to Networks</a><i/><br/>
-
-<i>&#8226; <a style="color:#333">I am also an expert in evaluating demonstration exams in Network and System Administration</a><i/><br/>
-
-<i>&#8226; <a style="color:#333">Certified specialist of the Russian operating system Linux RedOS</a><i/><br/>
-
-<h4> <i>At the moment, all my work instructions can be found in the following repositories:</i></h4>
-
-<button><i>&#8226; <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows" style="color:#0000FF">Domain connection between Linux and Windows</a></button><i/><br/>
-
-<button><i>&#8226; <a href="https://dimoroz772.github.io/Linux_RedOS" style="color:#0000FF">Linux RedOS</a></button><i/><br/>
-
-<button><i>&#8226; <a href="https://dimoroz772.github.io/Linux_CentOS/" style="color:#0000FF">Linux CentOS</a></button><i/><br/>
-
-<button><i>&#8226; <a href="https://dimoroz772.github.io/Linux_ALT/" style="color:#0000FF">Linux ALT</a></button><i/><br/>
-
-<button><i>&#8226; <a href="https://dimoroz772.github.io/Linux_Fedora/" style="color:#0000FF">Linux Fedora</a></button><i/><br/>
-
-<button><i>&#8226; <a href="https://dimoroz772.github.io/Scripts/" style="color:#0000FF">Scripts</a></button><i/><br/>
-
-<button><i>&#8226; <a href="https://dimoroz772.github.io/Windows_Upgrade_Or_Install_Keys/" style="color:#0000FF">Windows Upgrade Or Install Keys</a></button><i/><br/>
-
-<button><i>&#8226; <a href="https://dimoroz772.github.io/DDT4ALL/" style="color:#0000FF">DDT4ALL</a></button><i/><br/>
-
-<button><i>&#8226; <a href="https://github.com/dimoroz772/My_ideal_software_IT-environment" style="color:#0000FF">My ideal software IT-environment</a></button><i/><br/>
-<br/>
-<i>I hope that you will find something new and interesting for yourself in the repositories of my profile) Peaceful sky to all!)<i/>
-<br/>
-<br/>
-
-<p align="center">
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dimoroz772&theme=tokyonight-duo&hide_border=true"/></a>
-</p>
-
-<br/>
-<br/>
-
-<p align="left">
-<a href="https://git.io/streak-stats"><img src="https://komarev.com/ghpvc/?username=dimoroz772&color=blueviolet"/></a>
-</p>
+// Получите элемент с id="defaultOpen" и нажмите на него
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html>
