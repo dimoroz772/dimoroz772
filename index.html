@@ -1,312 +1,899 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>About Dmitriy Morozov</title>
-  <link rel="shortcut icon" href="./Resum.png" type="image/png">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-* {box-sizing: border-box}
-
-/* Установите высоту корпуса и документа на 100% */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
-
-/* Стиль вкладкок ссылок */
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 45%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Стиль содержимого вкладки (и добавить высоту: 100% для полного содержимого страницы) */
-.tabcontent {
-  color: rgb(255, 255, 255);
-  display: none;
-  padding: 112px 400px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#GI {background-image: url('GI.jpg');}
-#Repositories {background-image: url('REPO.jpg');}
-
-.card {
-  width: 300px;
-  height: 200px;
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  display: inline-block;
-  margin: 22px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  overflow: hidden;
-  perspective: 1000px;
-  box-shadow: 0 0 0 5px #ffffff80;
-  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.card svg {
-  width: 48px;
-  fill: #333;
-  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
-}
-
-.card__content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: #f2f2f2;
-  transform: rotateX(-90deg);
-  transform-origin: bottom;
-  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.card:hover .card__content {
-  transform: rotateX(0deg);
-}
-
-.card__title {
-  margin: 0;
-  font-size: 24px;
-  color: #333;
-  font-weight: 700;
-}
-
-.card:hover svg {
-  scale: 0;
-}
-
-.card__description {
-  margin: 10px 0 0;
-  font-size: 14px;
-  color: #777;
-  line-height: 1.4;
-}
-
-button {
-  width: 150px;
-  height: 50px;
-  border: 2px solid #000;
-  font-family: 'Lato', sans-serif;
-  font-size: 17px;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 500;
-  background: transparent;
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  margin: 20px;
-  outline: none;
-  text-align: center;
-  z-index: 2;
-  transition: all 0.3s ease;
-  overflow: hidden;
-}
-
-button::after {
-  position: absolute;
-  content: " ";
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
-              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.5),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
-  color: #fff;
-}
-
-button:hover::after {
-  transform: scale(2) rotate(180deg);
-  background: #1e4a9b;
-  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
-              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.5),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
-}
-
-
-</style>
+  <title>GitHub: dimoroz772</title>
+  <link rel="shortcut icon" href="assets/img/logo1.png" type="image/png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('GI', this, 'transparent')"><i>General information</i></button>
-<button class="tablink" onclick="openPage('Repositories', this, 'transparent')" id="defaultOpen"><i>Repositories</i></button>
-
-<div id="GI" class="tabcontent">
-  <h1 align="center"><i>Hi there! My name is Dmitriy)✌️</i></h1>
-  <h2 align="center"><i>I am an IT specialist from Russia 🇷🇺</i></h2>
-  💻 <i>If you take a look at my repositories, you can find many different instructions that I think you will like) I try to work with all Linux and Windows operating systems including server versions and put everything only the most necessary on <a href="https://github.com" style="color:Crimson">GitHub.com</a><i/>
-  <h4><i>I am also certified in:</i></h4>
-  <i>&#8226; <a>CCNA Security</a><i/><br/>  
-  <i>&#8226; <a>CCNA Routing and Switching: Routing and Switching Essentials</a><i/><br/>
-  <i>&#8226; <a>CCNA Routing and Switching: Introduction to Networks</a><i/><br/>
-  <i>&#8226; <a>I am also an expert in evaluating demonstration exams in Network and System Administration</a><i/><br/>
-  <i>&#8226; <a>Certified specialist of the Russian operating system Linux RedOS</a><i/><br/>
-  <br/>
-  <i>I hope that in the repositories of my profile you will find something new and interesting for yourself, and you will also be able to install the software you need according to my instructions) Peaceful skies everyone!)<i/>
-  <br/>
-  <br/>
-  <br/>
-  <p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dimoroz772&theme=tokyonight-duo&hide_border=true"/></a>
-  </p>
-  <br/>
-  <br/>
-  <p align="left">
-  <a href="https://git.io/streak-stats"><img src="https://komarev.com/ghpvc/?username=dimoroz772&color=blueviolet"/></a>
-  </p>
-  </div>
-
-<div id="Repositories" class="tabcontent">
-  <div class="card">
-    <img src="LinWin.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
-    <div class="card__content">
-      <p class="card__title">Domain connection between Linux and Windows</p>
-      <form action="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows">
-      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
-      </form>
-    </div>
-  </div>
-  <div class="card">
-    <img src="RedOS.png" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
-    <div class="card__content">
-      <p class="card__title">Linux RedOS</p>
-      <form action="https://dimoroz772.github.io/Linux_RedOS/">
-      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
-      </form>
-    </div>
-  </div>
-  <div class="card">
-    <img src="CentOS.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
-    <div class="card__content">
-      <p class="card__title">Linux CentOS</p>
-      <form action="https://dimoroz772.github.io/Linux_CentOS/">
-      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
-      </form>
-    </div>
-  </div>
-  <div class="card">
-    <img src="ALT.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
-    <div class="card__content">
-      <p class="card__title">Linux ALT</p>
-      <form action="https://dimoroz772.github.io/Linux_ALT/">
-      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
-      </form>
-    </div>
-  </div>
-  <div class="card">
-    <img src="Fedora.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
-    <div class="card__content">
-      <p class="card__title">Linux Fedora</p>
-      <form action="https://dimoroz772.github.io/Linux_Fedora/">
-      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
-      </form>
-    </div>
-  </div>
-  <div class="card">
-    <img src="Bash.png" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
-    <div class="card__content">
-      <p class="card__title">Scripts</p>
-      <form action="https://dimoroz772.github.io/Scripts/">
-      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
-      </form>
-    </div>
-  </div>
-  <div class="card">
-    <img src="Win.png" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
-    <div class="card__content">
-      <p class="card__title">Windows Upgrade Or Install Keys</p>
-      <form action="https://dimoroz772.github.io/Windows_Upgrade_Or_Install_Keys/">
-      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
-      </form>
-    </div>
-  </div>
-  <div class="card">
-    <img src="DDT4ALL.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
-    <div class="card__content">
-      <p class="card__title">DDT4ALL</p>
-      <form action="https://dimoroz772.github.io/DDT4ALL/">
-      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
-      </form>
-    </div>
-  </div>
-  <div class="card">
-    <img src="IT.jpg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></img>
-    <div class="card__content">
-      <p class="card__title">My ideal software IT-environment</p>
-      <p class="card__description">The site is under construction</p>
-      <form action="">
-      <button style="position: absolute; left: 5px; top: 120px;"><i>Open</i></button>
-      </form>
-    </div>
-  </div>
-  </div>
-</article>
-</div>
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo">
+    <img src="assets/img/logo1.png">
+    <p><База знаний></p>
+  </a>
 </div>
 
-<div id="Contact" class="tabcontent">
-  <h3>Контакт</h3>
-  <p>Свяжитесь с нами или заскочите на чашечку кофе.</p>
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo">
+            <img src="assets/img/logo1.png">
+            <p>База знаний</p>
+          </a>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>CentOS</span></li>
+            <li><span>Fedora</span></li>
+            <li><span>RedOS</span></li>
+            <li><span>ALT</span></li>
+            <li><span>Scripts</span></li>
+            <li><span>Windows Upgrade</span></li>
+            <li><span>DCBLaW</span></li>
+            <li><span>DDT4ALL</span></li>
+            <li><span>My_IS_IT-environment</span></li>
+            <li><span>My contacts</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Find<br>what you<br>need and it<br>will run!</h1>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/introduction-visual3.png">
+              </div>
+              <div class="intro--options">
+                <a href="#0">
+                  <h3>About the instructions</h3>
+                  <p>It is very important to understand what you are writing about and how it works!</p>
+                </a>
+                <a href="#0">
+                  <h3>Self-learning</h3>
+                  <p>Study and do what interests you! This will bring you, in addition to knowledge, invaluable experience!</p>
+                </a>
+                <a href="#0">
+                  <h3>Share information</h3>
+                  <p>Tell us about the problems you encountered while implementing a project and how you solved them. This will save someone time!</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Linux CentOS</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/rsyslog%2BLogAnalyzer%2BMySQL">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Adiscon_LogAnalyzer.jpg">
+                      </div>
+                      <p class="slider--item-title">Adiscon LogAnalyzer</p>
+                      <p class="slider--item-description">Adiscon LogAnalyzer software is a web-based interface for visualizing syslog data.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Docker_Engine%2BPortainer">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Docker.jpg">
+                      </div>
+                      <p class="slider--item-title">Docker Engine + Portainer</p>
+                      <p class="slider--item-description">Portainer is very convenient to use together with your Docker Machine to be able to manage all your Docker hosts and clusters at once.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Ansible_SSH_Access_Manager">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Ansible.jpg">
+                      </div>
+                      <p class="slider--item-title">Ansible SSH Access Manager</p>
+                      <p class="slider--item-description">Ansible is a configuration management system written in the Python programming language, using a declarative markup language to describe configurations.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Cacti">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Cacti.jpg">
+                      </div>
+                      <p class="slider--item-title">Cacti</p>
+                      <p class="slider--item-description">Cacti is an open-source web application, the system allows you to build charts using RRDtool.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Observium">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Observium.jpg">
+                      </div>
+                      <p class="slider--item-title">Observium</p>
+                      <p class="slider--item-description">Observium is a network monitoring tool that allows network engineers to monitor network devices and infrastructure in real time.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Install_Zabbix_Server_4.2">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Zabbix.png">
+                      </div>
+                      <p class="slider--item-title">Install Zabbix Server 4.2</p>
+                      <p class="slider--item-description">Zabbix is a free system for monitoring the status of various computer network services, servers and network equipment.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Updating_Zabbix_version_from_4.2_to_5.0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Zabbix.png">
+                      </div>
+                      <p class="slider--item-title">Updating Zabbix version from 4.2 to 5.0</p>
+                      <p class="slider--item-description">Zabbix is a free system for monitoring the status of various computer network services, servers and network equipment.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Install_Zabbix_Server_6.0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Zabbix.png">
+                      </div>
+                      <p class="slider--item-title">Install Zabbix Server 6.0</p>
+                      <p class="slider--item-description">Zabbix is a free system for monitoring the status of various computer network services, servers and network equipment.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Install_Zabbix_Server_7.0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Zabbix.png">
+                      </div>
+                      <p class="slider--item-title">Install Zabbix Server 7.0</p>
+                      <p class="slider--item-description">Zabbix is a free system for monitoring the status of various computer network services, servers and network equipment.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Install_Grafana">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Grafana.png">
+                      </div>
+                      <p class="slider--item-title">Install Grafana</p>
+                      <p class="slider--item-description">Grafana is a free software data visualization system focused on data from IT monitoring systems.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Installing_Zabbix_plugin_in_Grafana">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Grafana.png">
+                      </div>
+                      <p class="slider--item-title">Zabbix plugin in Grafana</p>
+                      <p class="slider--item-description">The Zabbix plugin for Grafana allows you to visualize data from the Zabbix monitoring system, offering a quick and powerful way to create dashboards.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="https://github.com/dimoroz772/Linux_CentOS/blob/Website/Install_GLPI_10.0.6%2BPlugins">
+                      <div class="slider--item-image">
+                        <img src="assets/img/GLPI.png">
+                      </div>
+                      <p class="slider--item-title">Install GLPI 10.0.6 + Plugins</p>
+                      <p class="slider--item-description">GLPI, an abbreviation for Gestionnaire libre de parc informatique, is a system for working with requests and incidents, as well as for inventorying computer equipment.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work1">
+              <h2>Linux Fedora</h2>
+              <div class="work--lockup1">
+                <ul class="slider1">
+                  <li class="slider--item1 slider--item-left1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Creating_VLAN_Interfaces">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/VLAN.jpg">
+                      </div>
+                      <p class="slider--item-title1">Creating VLAN Interfaces</p>
+                      <p class="slider--item-description1">VLAN is a virtual local computer network.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1 slider--item-center1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Conky">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/Conky.jpg">
+                      </div>
+                      <p class="slider--item-title1">Conky</p>
+                      <p class="slider--item-description1">Conky is a system monitor that allows you to display information about your processor, memory, hard drive, network connection, running processes and much more that is happening on the system.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1 slider--item-right1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Folder_Access_Restriction">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/Folder.png">
+                      </div>
+                      <p class="slider--item-title1">Folder Access Restriction</p>
+                      <p class="slider--item-description1">A directory is an object in the file system that simplifies the organization of files; allows you to group files and possibly other directories.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Change_the_password_of_the_root_user">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/root.jpg">
+                      </div>
+                      <p class="slider--item-title1">Change the password of the root user</p>
+                      <p class="slider--item-description1">The root user on GNU/Linux systems is a user who has administrative access to your system.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/System_information">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/Fedora.jpg">
+                      </div>
+                      <p class="slider--item-title1">System information</p>
+                      <p class="slider--item-description1">A system is a set of elements that are in relationships and connections with each other, which forms a certain integrity, unity.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Setting_up_automated_backup_of_active_network_equipment_configurations">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/Backup.jpg">
+                      </div>
+                      <p class="slider--item-title1">Setting up automated <br> backup of active network <br> equipment configurations</p>
+                      <p class="slider--item-description1">Backup is the process of creating a copy of data on a medium designed to restore data to its original or new location in the event of damage or destruction.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Remote_desktop_in_linux_Fedora">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/RDP.jpg">
+                      </div>
+                      <p class="slider--item-title1">Remote desktop in linux Fedora</p>
+                      <p class="slider--item-description1">Remote Desktop is a term that refers to a management mode where one computer gains administrator rights over another, remote one.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/RustDesk">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/RustDesk.png">
+                      </div>
+                      <p class="slider--item-title1">RustDesk</p>
+                      <p class="slider--item-description1">RustDesk is software for remote access and remote control of computers and other devices.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Cockpit">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/Cockpit.png">
+                      </div>
+                      <p class="slider--item-title1">Cockpit</p>
+                      <p class="slider--item-description1">Cockpit simplifies common Linux administrative tasks through a user-friendly web interface.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/GUI_Servers_Connections">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/Fedora.jpg">
+                      </div>
+                      <p class="slider--item-title1">GUI Servers Connections</p>
+                      <p class="slider--item-description1">GUI Servers Connections is a script I wrote in bash, which is designed to quickly connect to servers.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Software_that_I_use">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/Fedora.jpg">
+                      </div>
+                      <p class="slider--item-title1">Software that I use</p>
+                      <p class="slider--item-description1">This describes all the software that I use in my daily work on the Linux Fedora OS.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Grub-Customizer">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/grubcustomizer.png">
+                      </div>
+                      <p class="slider--item-title1">Grub-Customizer</p>
+                      <p class="slider--item-description1">Grub Customizer - with this utility you can add and remove operating systems in the computer boot menu, change their order, wait time, and design of the GRUB boot loader.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Docker%2BPortainer">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/Docker.jpg">
+                      </div>
+                      <p class="slider--item-title1">Docker + Portainer</p>
+                      <p class="slider--item-description1">Portainer is very convenient to use together with your Docker Machine to be able to manage all your Docker hosts and clusters at once.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item1">
+                    <a href="https://github.com/dimoroz772/Linux_Fedora/blob/Website/Installing_NetBox_in_Docker">
+                      <div class="slider--item-image1">
+                        <img src="assets/img/NetBox.png">
+                      </div>
+                      <p class="slider--item-title1">Installing NetBox in Docker</p>
+                      <p class="slider--item-description1">Netbox is an open source web application designed for managing and documenting computer networks.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev1">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next1">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work2">
+              <h2>Linux RedOS</h2>
+              <div class="work--lockup2">
+                <ul class="slider2">
+                  <li class="slider--item2 slider--item-left2">
+                    <a href="https://github.com/dimoroz772/Linux_RedOS/blob/Website/Samba_DC">
+                      <div class="slider--item-image2">
+                        <img src="assets/img/samba.jpg">
+                      </div>
+                      <p class="slider--item-title2">Samba4 DC</p>
+                      <p class="slider--item-description2">Using Samba 4 as an Active Directory domain controller.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item2 slider--item-center2">
+                    <a href="https://github.com/dimoroz772/Linux_RedOS/blob/Website/FreeIPA">
+                      <div class="slider--item-image2">
+                        <img src="assets/img/FreeIPA.png">
+                      </div>
+                      <p class="slider--item-title2">FreeIPA</p>
+                      <p class="slider--item-description2">FreeIPA is a comprehensive solution for managing the security of Linux systems, 389 Directory Server, MIT Kerberos, NTP, DNS, Dogtag.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item2 slider--item-right2">
+                    <a href="https://github.com/dimoroz772/Linux_RedOS/blob/Website/Conky">
+                      <div class="slider--item-image2">
+                        <img src="assets/img/Conky.jpg">
+                      </div>
+                      <p class="slider--item-title2">Conky</p>
+                      <p class="slider--item-description2">Conky is a system monitor that allows you to display information about your processor, memory, hard drive, network connection, running processes and much more that is happening on the system.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item2">
+                    <a href="https://github.com/dimoroz772/Linux_RedOS/blob/Website/PXE-Server">
+                      <div class="slider--item-image2">
+                        <img src="assets/img/RedOS.png">
+                      </div>
+                      <p class="slider--item-title2">PXE-Server</p>
+                      <p class="slider--item-description2">PXE is an environment for booting a computer using a network card without using local storage media.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item2">
+                    <a href="https://github.com/dimoroz772/Linux_RedOS/blob/Website/Creating_VLAN_Interfaces">
+                      <div class="slider--item-image2">
+                        <img src="assets/img/RedOS.png">
+                      </div>
+                      <p class="slider--item-title2">Creating VLAN Interfaces</p>
+                      <p class="slider--item-description2">VLAN is a virtual local computer network.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item2">
+                    <a href="https://github.com/dimoroz772/Linux_RedOS/blob/Website/Install_Zabbix_Server_6.4.9">
+                      <div class="slider--item-image2">
+                        <img src="assets/img/Zabbix.png">
+                      </div>
+                      <p class="slider--item-title2">Install Zabbix Server 6.4.9</p>
+                      <p class="slider--item-description2">Zabbix is a free system for monitoring the status of various computer network services, servers and network equipment.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev2">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next2">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work3">
+              <h2>Linux ALT</h2>
+              <div class="work--lockup3">
+                <ul class="slider3">
+                  <li class="slider--item3 slider--item-center3">
+                    <a href="https://github.com/dimoroz772/Linux_ALT/blob/Website/Samba_DC">
+                      <div class="slider--item-image3">
+                        <img src="assets/img/samba.jpg">
+                      </div>
+                      <p class="slider--item-title3">Samba DC</p>
+                      <p class="slider--item-description3">Using Samba 4 as an Active Directory domain controller.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev3">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next3">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work4">
+              <h2>Scripts</h2>
+              <div class="work--lockup4">
+                <ul class="slider4">
+                  <li class="slider--item4 slider--item-left4">
+                    <a href="https://github.com/dimoroz772/Scripts/blob/Website/Setting_up_automated_backup_of_active_network_equipment_configurations">
+                      <div class="slider--item-image4">
+                        <img src="assets/img/Backup.jpg">
+                      </div>
+                      <p class="slider--item-title4">Setting up automated <br> backup of active <br> network equipment configurations</p>
+                      <p class="slider--item-description4">Backup is the process of creating a copy of data on a medium designed to restore data to its original or new location in the event of damage or destruction.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item4 slider--item-center4">
+                    <a href="https://github.com/dimoroz772/Scripts/blob/Website/GUI_Servers_Connections">
+                      <div class="slider--item-image4">
+                        <img src="assets/img/bash.png">
+                      </div>
+                      <p class="slider--item-title4">GUI Servers Connections</p>
+                      <p class="slider--item-description4">GUI Servers Connections is a script I wrote in bash, which is designed to quickly connect to servers.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev4">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next4">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work5">
+              <h2>Windows Upgrade Or Install Keys</h2>
+              <div class="work--lockup5">
+                <ul class="slider5">
+                  <li class="slider--item5 slider--item-left5">
+                    <a href="https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys/blob/Website/Microsoft_Generic_License_Keys_(GVLK)_for_upgrading_server_versions_of_Windows.md">
+                      <div class="slider--item-image5">
+                        <img src="assets/img/Windows_Logo.png">
+                      </div>
+                      <p class="slider--item-title5">Microsoft Generic License <br> Keys (GVLK) for upgrading <br> server versions of Windows</p>
+                      <p class="slider--item-description5">These keys were taken from the Internet information and communication network, the official Microsoft website.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item5 slider--item-center5">
+                    <a href="https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys/blob/Website/Microsoft_Generic_License_Keys_(GVLK)_for_upgrading_clients_versions_of_Windows.md">
+                      <div class="slider--item-image5">
+                        <img src="assets/img/Windows_Red_Logo.png">
+                      </div>
+                      <p class="slider--item-title5">Microsoft Generic License <br> Keys (GVLK) for upgrading <br> clients versions of Windows</p>
+                      <p class="slider--item-description5">These keys were taken from the Internet information and communication network, the official Microsoft website.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev5">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next5">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work6">
+              <h2>Domain connection between Linux and Windows</h2>
+              <div class="work--lockup6">
+                <ul class="slider6">
+                  <li class="slider--item6 slider--item-left6">
+                    <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows/blob/main/Samba4(RedOS_7.3.2_Server_GUI)_as_second_domain_controller_Windows_Server_2012R2">
+                      <div class="slider--item-image6">
+                        <img src="assets/img/WinLin.jpg">
+                      </div>
+                      <p class="slider--item-title6">Samba4(RedOS 7.3.2 Server GUI) <br> as second domain controller <br> Windows Server 2012R2</p>
+                      <p class="slider--item-description6">Deploying a secondary domain controller on RedOS 7.3.2 Server GUI using Samba4 in an already created domain on Windows Server 2012R2.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item6 slider--item-center6">
+                    <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows/blob/main/Creating_a_trust_relationship_between_Samba4_domain_controllers(RedOS_7.3.2_Server)_and_Windows_Server_2012R2">
+                      <div class="slider--item-image6">
+                        <img src="assets/img/WinLin.jpg">
+                      </div>
+                      <p class="slider--item-title6">Creating a trust relationship <br> between Samba4 domain controllers <br> (RedOS 7.3.2 Server) and <br> Windows Server 2012R2</p>
+                      <p class="slider--item-description6">Creating a trust relationship between Samba (RedOS 7.3.2 Server) and Windows Server 2012R2 domain controllers.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev6">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next6">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work7">
+              <h2>DDT4ALL</h2>
+              <div class="work--lockup7">
+                <ul class="slider7">
+                  <li class="slider--item7 slider--item-left7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/Website/Option_cache_Renault_russe.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Renault_Logo.png">
+                      </div>
+                      <p class="slider--item-title7">Manual for setting <br> up additional functions <br> on Renault cars</p>
+                      <p class="slider--item-description7">DDT4ALL Guide.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7 slider--item-center7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_Duster_1G">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Duster_1G.jpg">
+                      </div>
+                      <p class="slider--item-title7">Installer DDT4ALL for <br> Renault Duster 1G</p>
+                      <p class="slider--item-description7">Installer.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7 slider--item-right7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_and_Dacia_cars">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Renault_Logo.png">
+                      </div>
+                      <p class="slider--item-title7">Installer DDT4ALL for <br> Renault and Dacia cars</p>
+                      <p class="slider--item-description7">Installer.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Lada">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Lada_Logo.jpg">
+                      </div>
+                      <p class="slider--item-title7">Installer DDT4ALL for Lada</p>
+                      <p class="slider--item-description7">Installer.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Lada_Vesta.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Vesta_1G.jpg">
+                      </div>
+                      <p class="slider--item-title7">Manual for setting <br> up additional functions <br> on Lada Vesta 1G cars</p>
+                      <p class="slider--item-description7">DDT4ALL Guide for Lada Vesta 1G cars.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Renault_Arkana.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Arkana.jpg">
+                      </div>
+                      <p class="slider--item-title7">Manual for setting <br> up additional functions <br> on Renault Arkana cars</p>
+                      <p class="slider--item-description7">DDT4ALL Guide for Renault Arkana cars.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RD1G.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Duster_1G.jpg">
+                      </div>
+                      <p class="slider--item-title7">Manual for setting <br> up additional functions <br> on Renault Duster 1G cars</p>
+                      <p class="slider--item-description7">DDT4ALL Guide for Renault Duster 1G cars.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RD2G.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Duster_2G.jpg">
+                      </div>
+                      <p class="slider--item-title7">Manual for setting <br> up additional functions <br> on Renault Duster 2G cars</p>
+                      <p class="slider--item-description7">DDT4ALL Guide for Renault Duster 2G cars.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RF.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Fluence.jpg">
+                      </div>
+                      <p class="slider--item-title7">Manual for setting <br> up additional functions <br> on Renault Fluence (2009-2013) cars</p>
+                      <p class="slider--item-description7">DDT4ALL Guide for Renault Fluence (2009-2013) cars.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RK.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Kaptur.jpg">
+                      </div>
+                      <p class="slider--item-title7">Manual for setting <br> up additional functions <br> on Renault Kaptur cars</p>
+                      <p class="slider--item-description7">DDT4ALL Guide for Renault Kaptur cars.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Renault_Logan_2G.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Logan_2G.jpg">
+                      </div>
+                      <p class="slider--item-title7">Manual for setting <br> up additional functions <br> on Renault Logan 2G cars</p>
+                      <p class="slider--item-description7">DDT4ALL Guide for Renault Logan 2G cars.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RM.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Megane_3.jpg">
+                      </div>
+                      <p class="slider--item-title7">Manual for setting <br> up additional functions <br> on Renault Megane 3 (2012-2014) cars</p>
+                      <p class="slider--item-description7">DDT4ALL Guide for Renault Megane 3 (2012-2014) cars.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RS.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Sandero_2G.jpg">
+                      </div>
+                      <p class="slider--item-title7">Manual for setting <br> up additional functions <br> on Renault Sandero 2G (2013-2018) cars</p>
+                      <p class="slider--item-description7">DDT4ALL Guide for Renault Sandero 2G (2013-2018) cars.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_MediaNav_Toolbox_Evolution">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Renault_Logo.png">
+                      </div>
+                      <p class="slider--item-title7">Installer Renault <br> MediaNav Evolution Toolbox</p>
+                      <p class="slider--item-description7">Installer.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/mcmtest_activate.ini">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Renault_Logo.png">
+                      </div>
+                      <p class="slider--item-title7">mcmtest_activate.ini</p>
+                      <p class="slider--item-description7">Configuration file.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/mcmtest_activate_4medianav.ini">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Renault_Logo.png">
+                      </div>
+                      <p class="slider--item-title7">mcmtest_activate_4medianav.ini</p>
+                      <p class="slider--item-description7">Configuration file.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/mcmtest_activate_4nng.ini">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Renault_Logo.png">
+                      </div>
+                      <p class="slider--item-title7">mcmtest_activate_4nng.ini</p>
+                      <p class="slider--item-description7">Configuration file.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Renault_Logo.png">
+                      </div>
+                      <p class="slider--item-title7">Инструкция</p>
+                      <p class="slider--item-description7">File.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F.png">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Renault_Logo.png">
+                      </div>
+                      <p class="slider--item-title7">Комбинация</p>
+                      <p class="slider--item-description7">Procedure.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C.docx">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Renault_Logo.png">
+                      </div>
+                      <p class="slider--item-title7">Последовательность</p>
+                      <p class="slider--item-description7">File.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item7">
+                    <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/upgrade.lgu">
+                      <div class="slider--item-image7">
+                        <img src="assets/img/Renault_Logo.png">
+                      </div>
+                      <p class="slider--item-title7">Installing a media player on <br> firmware 9.1.3</p>
+                      <p class="slider--item-description7">Plugin.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev7">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next7">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work8">
+              <h2>My ideal software IT-environment</h2>
+              <div class="work--lockup8">
+                <ul class="slider8">
+                  <li class="slider--item8 slider--item-center8">
+                    <a href="#0">
+                      <div class="slider--item-image8">
+                        <img src="assets/img/magic.jpg">
+                      </div>
+                      <p class="slider--item-title8">The repository is under development</p>
+                      <p class="slider--item-description8">&#128578;</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev8">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next8">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>For all questions:</p>
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="https://github.com/dimoroz772">GitHub</a></li>
+                    <li><a href="mailto:dimoroz77@gmail.com">Write me</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>CentOS</li>
+    <li>Fedora</li>
+    <li>RedOS</li>
+    <li>ALT</li>
+    <li>Scripts</li>
+    <li>Windows Upgrade</li>
+    <li>DCBLaW</li>
+    <li>DDT4ALL</li>
+    <li>My_IS_IT-environment</li>
+    <li>My contacts</li>
+  </ul>
 </div>
 
-<div id="About" class="tabcontent">
-  <h3>О Нас</h3>
-  <p>Кто мы такие и что делаем.</p>
-</div>
-
-<script>
-function openPage(pageName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-}
-
-// Получите элемент с id="defaultOpen" и нажмите на него
-document.getElementById("defaultOpen").click();
-</script>
-   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+<script src="assets/js/vendor/hammer-2.0.8.js"></script>
 </body>
 </html>
