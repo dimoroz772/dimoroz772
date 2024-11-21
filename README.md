@@ -17,6 +17,10 @@
 
 &#8226;  <i>Certified specialist of the Russian operating system Linux RedOS<i/><br/>
 
+&#8226;  <i>Certified specialist in the course Administration and diagnostics TATLIN.UNIFIED GEN2<i/><br/>
+
+&#8226;  <i>Certified specialist in the course Architecture and capabilities of TATLIN.UNIFIED GEN2<i/><br/>
+
 <h4> <i>At the moment, all my work instructions can be found in the following repositories:</i></h4>
 
 <i>&#8226; <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows">Domain_connection_between_Linux_and_Windows</a><br/><i/>
