@@ -45,13 +45,6 @@
  <br/>
  <br/>
 
-<p align="center">
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dimoroz772&theme=tokyonight-duo&hide_border=true"/></a>
-</p>
-
- <br/>
- <br/>
-
 <p align="left">
 <a href="https://git.io/streak-stats"><img src="https://komarev.com/ghpvc/?username=dimoroz772&color=blueviolet"/></a>
 </p>
