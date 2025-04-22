@@ -33,7 +33,7 @@
 
 <i>&#8226; <a href="https://github.com/dimoroz772/Linux_Fedora">Linux_Fedora</a><br/><i/>
 
-<i>&#8226; <a href="https://github.com/dimoroz772/Linux_Astra">Linux_Fedora</a><br/><i/>
+<i>&#8226; <a href="https://github.com/dimoroz772/Linux_Astra">Linux_Astra</a><br/><i/>
 
 <i>&#8226; <a href="https://github.com/dimoroz772/Scripts">Scripts</a><br/><i/>
 
