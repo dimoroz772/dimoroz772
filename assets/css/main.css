@@ -3837,3 +3837,218 @@ body {
         display: none
     }
 }
+/* Десятый слайдер */
+
+.work10 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 960px;
+    max-width: 80%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto
+}
+
+@media (max-width: 1180px) {
+    .work10 {
+        max-width: 100%
+    }
+}
+
+.work10 h2 {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    text-align: center
+}
+
+.work--lockup10 {
+    position: relative
+}
+
+.work--lockup10 .slider10 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none
+}
+
+.work--lockup10 .slider--item10 {
+    position: absolute;
+    display: none;
+    text-align: center
+}
+
+.work--lockup10 .slider--item10 a {
+    text-decoration: none;
+    color: #858585
+}
+
+.work--lockup10 .slider--item-title10 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.work--lockup10 .slider--item-description10 {
+    display: none;
+    max-width: 250px;
+    margin: 0 auto
+}
+
+.work--lockup10 .slider--item-image10 {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.work--lockup10 .slider--item-image10 img {
+    width: 100%
+}
+
+.work--lockup10 .slider--item-left10 {
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block
+}
+
+.work--lockup10 .slider--item-right10 {
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block
+}
+
+.work--lockup10 .slider--item-center10 {
+    position: relative;
+    top: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: block
+}
+
+.work--lockup10 .slider--item-center10 a {
+    color: #fff
+}
+
+.work--lockup10 .slider--item-center10 .slider--item-title10 {
+    margin-top: 25px;
+    font-size: 16px
+}
+
+.work--lockup10 .slider--item-center10 .slider--item-description10 {
+    display: block
+}
+
+.work--lockup10 .slider--item-center10 .slider--item-image10 {
+    width: 300px;
+    height: 300px
+}
+
+.work--lockup10 .slider--next10,
+.work--lockup10 .slider--prev10 {
+    position: absolute;
+    top: 160px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #282828;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.work--lockup10 .slider--next10 svg,
+.work--lockup10 .slider--prev10 svg {
+    width: 20px;
+    fill: #fff
+}
+
+.work--lockup10 .slider--next10 {
+    right: 0
+}
+
+.work--lockup10 .slider--prev10 {
+    left: 0
+}
+
+@media (max-width: 900px) {
+    .work--lockup10 .slider--item-image10 {
+        width: 120px;
+        height: 120px
+    }
+
+    .work--lockup10 .slider--item-center10 .slider--item-image10 {
+        width: 240px;
+        height: 240px
+    }
+
+    .work--lockup10 .slider--next10,
+    .work--lockup10 .slider--prev10 {
+        top: 130px
+    }
+}
+
+@media (max-width: 767px) {
+    .work--lockup10 .slider10 {
+        width: 75%
+    }
+
+    .work--lockup10 .slider--item-image10 {
+        width: 90px;
+        height: 90px
+    }
+
+    .work--lockup10 .slider--item-center10 .slider--item-image10 {
+        width: 190px;
+        height: 190px
+    }
+
+    .work--lockup10 .slider--next10,
+    .work--lockup10 .slider--prev10 {
+        top: 105px
+    }
+}
+
+@media (max-width: 600px) {
+    .work--lockup10 .slider10 {
+        width: auto
+    }
+
+    .work--lockup10 .slider--item-left10,
+    .work--lockup10 .slider--item-right10 {
+        display: none
+    }
+}
