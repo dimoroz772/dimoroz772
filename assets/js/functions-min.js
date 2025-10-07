@@ -1044,7 +1044,9 @@ $( document ).ready(function() {
     workSlider7();
     workSlider8();
     workSlider9();
+    workSlider10();
     transitionLabels();
   
   });
+
 
