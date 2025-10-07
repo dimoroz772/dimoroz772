@@ -1008,7 +1008,7 @@ $( document ).ready(function() {
   
       }, 400);
   
-      $('.slider5').animate({ opacity : 1 }, 400);
+      $('.slider10').animate({ opacity : 1 }, 400);
   
       });
   
@@ -1048,5 +1048,6 @@ $( document ).ready(function() {
     transitionLabels();
   
   });
+
 
 
