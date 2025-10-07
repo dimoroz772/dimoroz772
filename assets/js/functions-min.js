@@ -937,6 +937,82 @@ $( document ).ready(function() {
       });
   
     }
+    function workSlider10() {
+      $('.slider--prev10, .slider--next10').click(function() {
+  
+        var $this = $(this),
+            curLeft = $('.slider10').find('.slider--item-left10'),
+            curLeftPos = $('.slider10').children().index(curLeft),
+            curCenter = $('.slider10').find('.slider--item-center10'),
+            curCenterPos = $('.slider10').children().index(curCenter),
+            curRight = $('.slider10').find('.slider--item-right10'),
+            curRightPos = $('.slider10').children().index(curRight),
+            totalWorks = $('.slider10').children().length,
+            $left = $('.slider--item-left10'),
+            $center = $('.slider--item-center10'),
+            $right = $('.slider--item-right10'),
+            $item = $('.slider--item10');
+  
+        $('.slider10').animate({ opacity : 0 }, 400);
+  
+        setTimeout(function(){
+  
+        if ($this.hasClass('slider--next10')) {
+          if (curLeftPos < totalWorks - 1 && curCenterPos < totalWorks - 1 && curRightPos < totalWorks - 1) {
+            $left.removeClass('slider--item-left10').next().addClass('slider--item-left10');
+            $center.removeClass('slider--item-center10').next().addClass('slider--item-center10');
+            $right.removeClass('slider--item-right10').next().addClass('slider--item-right10');
+          }
+          else {
+            if (curLeftPos === totalWorks - 1) {
+              $item.removeClass('slider--item-left10').first().addClass('slider--item-left10');
+              $center.removeClass('slider--item-center10').next().addClass('slider--item-center10');
+              $right.removeClass('slider--item-right10').next().addClass('slider--item-right10');
+            }
+            else if (curCenterPos === totalWorks - 1) {
+              $left.removeClass('slider--item-left10').next().addClass('slider--item-left10');
+              $item.removeClass('slider--item-center10').first().addClass('slider--item-center10');
+              $right.removeClass('slider--item-right10').next().addClass('slider--item-right10');
+            }
+            else {
+              $left.removeClass('slider--item-left10').next().addClass('slider--item-left10');
+              $center.removeClass('slider--item-center10').next().addClass('slider--item-center10');
+              $item.removeClass('slider--item-right10').first().addClass('slider--item-right10');
+            }
+          }
+        }
+        else {
+          if (curLeftPos !== 0 && curCenterPos !== 0 && curRightPos !== 0) {
+            $left.removeClass('slider--item-left10').prev().addClass('slider--item-left10');
+            $center.removeClass('slider--item-center10').prev().addClass('slider--item-center10');
+            $right.removeClass('slider--item-right10').prev().addClass('slider--item-right10');
+          }
+          else {
+            if (curLeftPos === 0) {
+              $item.removeClass('slider--item-left10').last().addClass('slider--item-left10');
+              $center.removeClass('slider--item-center10').prev().addClass('slider--item-center10');
+              $right.removeClass('slider--item-right10').prev().addClass('slider--item-right10');
+            }
+            else if (curCenterPos === 0) {
+              $left.removeClass('slider--item-left10').prev().addClass('slider--item-left10');
+              $item.removeClass('slider--item-center10').last().addClass('slider--item-center10');
+              $right.removeClass('slider--item-right10').prev().addClass('slider--item-right10');
+            }
+            else {
+              $left.removeClass('slider--item-left10').prev().addClass('slider--item-left10');
+              $center.removeClass('slider--item-center10').prev().addClass('slider--item-center10');
+              $item.removeClass('slider--item-right10').last().addClass('slider--item-right10');
+            }
+          }
+        }
+  
+      }, 400);
+  
+      $('.slider5').animate({ opacity : 1 }, 400);
+  
+      });
+  
+    }
     function transitionLabels() {
   
       $('.work-request--information input').focusout(function(){
@@ -971,3 +1047,4 @@ $( document ).ready(function() {
     transitionLabels();
   
   });
+
