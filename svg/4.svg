@@ -1,0 +1,368 @@
+<!-- https://github.com/DenverCoder1/readme-typing-svg/ -->
+<svg xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    viewBox='0 0 800 800'
+    style='background-color: #00000000;'
+    width='800px' height='800px'>
+
+    <style>
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(data:font/truetype;base64,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AJIAAQAAAEQAAwABAIAAAQY2AAEAlgAAAAMAAQCGAAEGJgABAHAAAAABAAAAAQAIAAEHPgADAAYAAAAEAEIAMgAgAA4AAwABAEQAAQcqAAAAAQAAAEIAAwAAAAEHGAABADIAAQAAAEEAAwABACAAAQcGAAEANgAAAAMAAQAmAAEG9gABABAAAAACAAMAEQAZAAAAGwArAAkALwAvABoAAgADAAEAEAAAADAAMgAQAEUARgATAAEAAAABAAgAAQayABQAAQAAAAEACAABBqQAFQABAAAAAQAIAAEGlgATAAYAAAADADAAHgAMAAMAAAABBoQAAQaEAAEAAAA/AAMAAQAmAAEGcgAAAAEAAAA+AAMAAQAUAAEGYAABBmAAAQAAAD0AAQACAFoAWwABAAAAAQAIAAIACgACACwALQABAAIAGQAdAAYAAAACAC4ACgADAAEAGAABABIAAAABAAAAOwABAAEAHQABAAQABQAHAA4ALQADAAEAEgABBqgAAAABAAAAOwABAAIAFgAsAAEAAAABAAgAAQAiAAMABgAAAAEACAADAAEG4gABABQAAQbiAAEAAAA5AAEAAQAoAAEAAAABAAgAAQbYABcABgAAAAQAQgAyACAADgADAAAAAQbEAAEGxAABAAAANwADAAEDmAABBrIAAAABAAAANgADAAAAAQagAAIGoAagAAAAAwABBpAAAQaQAAEGkAAAAAEAAAABAAgAAQBsAAUAAQAAAAEACAABAF4AGAAGAAAABABIADgAIAAOAAMAAAABAEoAAQBKAAEAAAA0AAMAAQASAAEAOAAAAAEAAAAzAAEAAQBCAAMAAAABACAAAgAgACAAAAADAAEAEAABABAAAQAQAAAAAQABAD0AAQAAAAEACAABA6AABAAGAAAABABCADIAIAAOAAMAAAABA4wAAQOMAAEAAAAxAAMAAQNQAAEDegAAAAEAAAAwAAMAAAABA2gAAgNoA2gAAAADAAEDWAABA1gAAQNYAAAAAQAAAAEACAABA9gAFwAGAAAABABCADIAIAAOAAMAAAABA8QAAQPEAAEAAAAuAAMAAQOIAAEDsgAAAAEAAAAtAAMAAAABA6AAAgOgA6AAAAADAAEDkAABA5AAAQOQAAAAAQAAAAEACAACAAoAAgBAAFAAAQACADoARwAGAAAABABCADIAIAAOAAMAAAAB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) format('truetype');
+}
+</style>
+
+                <path id='path0'>
+                            <!-- Multiline -->
+                                <animate id='d0' attributeName='d' begin='0s'
+                    dur='1000ms' fill="freeze"
+                    values='m0,25 h0 ; m0,25 h0 ; m0,25 h800 ; m0,25 h800' keyTimes='0;0;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path0'>
+            Engineer of the 1st category, 4+ years old: Linux
+        </textPath>
+    </text>
+        <path id='path1'>
+                            <!-- Multiline -->
+                                <animate id='d1' attributeName='d' begin='0s'
+                    dur='2000ms' fill="freeze"
+                    values='m0,50 h0 ; m0,50 h0 ; m0,50 h800 ; m0,50 h800' keyTimes='0;0.5;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path1'>
+            (RedOS/Fedora/Astra/CentOS/ALT), virtualization, scripts,
+        </textPath>
+    </text>
+        <path id='path2'>
+                            <!-- Multiline -->
+                                <animate id='d2' attributeName='d' begin='0s'
+                    dur='3000ms' fill="freeze"
+                    values='m0,75 h0 ; m0,75 h0 ; m0,75 h800 ; m0,75 h800' keyTimes='0;0.66666666666667;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path2'>
+            network.
+        </textPath>
+    </text>
+        <path id='path3'>
+                            <!-- Multiline -->
+                                <animate id='d3' attributeName='d' begin='0s'
+                    dur='4000ms' fill="freeze"
+                    values='m0,100 h0 ; m0,100 h0 ; m0,100 h800 ; m0,100 h800' keyTimes='0;0.75;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path3'>
+            I am an IT specialist, I make practical instructions and
+        </textPath>
+    </text>
+        <path id='path4'>
+                            <!-- Multiline -->
+                                <animate id='d4' attributeName='d' begin='0s'
+                    dur='5000ms' fill="freeze"
+                    values='m0,125 h0 ; m0,125 h0 ; m0,125 h800 ; m0,125 h800' keyTimes='0;0.8;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path4'>
+            cheat sheets on Linux administration.
+        </textPath>
+    </text>
+        <path id='path5'>
+                            <!-- Multiline -->
+                                <animate id='d5' attributeName='d' begin='0s'
+                    dur='6000ms' fill="freeze"
+                    values='m0,150 h0 ; m0,150 h0 ; m0,150 h800 ; m0,150 h800' keyTimes='0;0.83333333333333;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path5'>
+            The repositories contain step—by-step guides on RedOS,
+        </textPath>
+    </text>
+        <path id='path6'>
+                            <!-- Multiline -->
+                                <animate id='d6' attributeName='d' begin='0s'
+                    dur='7000ms' fill="freeze"
+                    values='m0,175 h0 ; m0,175 h0 ; m0,175 h800 ; m0,175 h800' keyTimes='0;0.85714285714286;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path6'>
+            Fedora, Astra, CentOS and ALT, as well as Linux and
+        </textPath>
+    </text>
+        <path id='path7'>
+                            <!-- Multiline -->
+                                <animate id='d7' attributeName='d' begin='0s'
+                    dur='8000ms' fill="freeze"
+                    values='m0,200 h0 ; m0,200 h0 ; m0,200 h800 ; m0,200 h800' keyTimes='0;0.875;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path7'>
+            Windows domain interaction.
+        </textPath>
+    </text>
+        <path id='path8'>
+                            <!-- Multiline -->
+                                <animate id='d8' attributeName='d' begin='0s'
+                    dur='9000ms' fill="freeze"
+                    values='m0,225 h0 ; m0,225 h0 ; m0,225 h800 ; m0,225 h800' keyTimes='0;0.88888888888889;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path8'>
+            I collect useful scenario in Scripts, and in
+        </textPath>
+    </text>
+        <path id='path9'>
+                            <!-- Multiline -->
+                                <animate id='d9' attributeName='d' begin='0s'
+                    dur='10000ms' fill="freeze"
+                    values='m0,250 h0 ; m0,250 h0 ; m0,250 h800 ; m0,250 h800' keyTimes='0;0.9;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path9'>
+            My_ideal_software_IT-environment I fix the optimal set of
+        </textPath>
+    </text>
+        <path id='path10'>
+                            <!-- Multiline -->
+                                <animate id='d10' attributeName='d' begin='0s'
+                    dur='11000ms' fill="freeze"
+                    values='m0,275 h0 ; m0,275 h0 ; m0,275 h800 ; m0,275 h800' keyTimes='0;0.90909090909091;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path10'>
+            tools for the IT infrastructure.
+        </textPath>
+    </text>
+        <path id='path11'>
+                            <!-- Multiline -->
+                                <animate id='d11' attributeName='d' begin='0s'
+                    dur='12000ms' fill="freeze"
+                    values='m0,300 h0 ; m0,300 h0 ; m0,300 h800 ; m0,300 h800' keyTimes='0;0.91666666666667;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path11'>
+             
+        </textPath>
+    </text>
+        <path id='path12'>
+                            <!-- Multiline -->
+                                <animate id='d12' attributeName='d' begin='0s'
+                    dur='13000ms' fill="freeze"
+                    values='m0,325 h0 ; m0,325 h0 ; m0,325 h800 ; m0,325 h800' keyTimes='0;0.92307692307692;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path12'>
+            I am also certified in:
+        </textPath>
+    </text>
+        <path id='path13'>
+                            <!-- Multiline -->
+                                <animate id='d13' attributeName='d' begin='0s'
+                    dur='14000ms' fill="freeze"
+                    values='m0,350 h0 ; m0,350 h0 ; m0,350 h800 ; m0,350 h800' keyTimes='0;0.92857142857143;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path13'>
+            • CCNA Security
+        </textPath>
+    </text>
+        <path id='path14'>
+                            <!-- Multiline -->
+                                <animate id='d14' attributeName='d' begin='0s'
+                    dur='15000ms' fill="freeze"
+                    values='m0,375 h0 ; m0,375 h0 ; m0,375 h800 ; m0,375 h800' keyTimes='0;0.93333333333333;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path14'>
+            • CCNA Routing and Switching: Routing and Switching Essentials
+        </textPath>
+    </text>
+        <path id='path15'>
+                            <!-- Multiline -->
+                                <animate id='d15' attributeName='d' begin='0s'
+                    dur='16000ms' fill="freeze"
+                    values='m0,400 h0 ; m0,400 h0 ; m0,400 h800 ; m0,400 h800' keyTimes='0;0.9375;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path15'>
+            • CCNA Routing and Switching: Introduction to Networks
+        </textPath>
+    </text>
+        <path id='path16'>
+                            <!-- Multiline -->
+                                <animate id='d16' attributeName='d' begin='0s'
+                    dur='17000ms' fill="freeze"
+                    values='m0,425 h0 ; m0,425 h0 ; m0,425 h800 ; m0,425 h800' keyTimes='0;0.94117647058824;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path16'>
+            • I am also an expert in evaluating demonstration exams in Network
+        </textPath>
+    </text>
+        <path id='path17'>
+                            <!-- Multiline -->
+                                <animate id='d17' attributeName='d' begin='0s'
+                    dur='18000ms' fill="freeze"
+                    values='m0,450 h0 ; m0,450 h0 ; m0,450 h800 ; m0,450 h800' keyTimes='0;0.94444444444444;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path17'>
+            and System Administration
+        </textPath>
+    </text>
+        <path id='path18'>
+                            <!-- Multiline -->
+                                <animate id='d18' attributeName='d' begin='0s'
+                    dur='19000ms' fill="freeze"
+                    values='m0,475 h0 ; m0,475 h0 ; m0,475 h800 ; m0,475 h800' keyTimes='0;0.94736842105263;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path18'>
+            • Certified specialist of the Russian operating system Linux RedOS
+        </textPath>
+    </text>
+        <path id='path19'>
+                            <!-- Multiline -->
+                                <animate id='d19' attributeName='d' begin='0s'
+                    dur='20000ms' fill="freeze"
+                    values='m0,500 h0 ; m0,500 h0 ; m0,500 h800 ; m0,500 h800' keyTimes='0;0.95;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path19'>
+            • Certified specialist in the course Administration and
+        </textPath>
+    </text>
+        <path id='path20'>
+                            <!-- Multiline -->
+                                <animate id='d20' attributeName='d' begin='0s'
+                    dur='21000ms' fill="freeze"
+                    values='m0,525 h0 ; m0,525 h0 ; m0,525 h800 ; m0,525 h800' keyTimes='0;0.95238095238095;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path20'>
+            diagnostics TATLIN.UNIFIED GEN2
+        </textPath>
+    </text>
+        <path id='path21'>
+                            <!-- Multiline -->
+                                <animate id='d21' attributeName='d' begin='0s'
+                    dur='22000ms' fill="freeze"
+                    values='m0,550 h0 ; m0,550 h0 ; m0,550 h800 ; m0,550 h800' keyTimes='0;0.95454545454545;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path21'>
+            • Certified specialist in the course Architecture and capabilities
+        </textPath>
+    </text>
+        <path id='path22'>
+                            <!-- Multiline -->
+                                <animate id='d22' attributeName='d' begin='0s'
+                    dur='23000ms' fill="freeze"
+                    values='m0,575 h0 ; m0,575 h0 ; m0,575 h800 ; m0,575 h800' keyTimes='0;0.95652173913043;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path22'>
+            of TATLIN.UNIFIED GEN2
+        </textPath>
+    </text>
+        <path id='path23'>
+                            <!-- Multiline -->
+                                <animate id='d23' attributeName='d' begin='0s'
+                    dur='24000ms' fill="freeze"
+                    values='m0,600 h0 ; m0,600 h0 ; m0,600 h800 ; m0,600 h800' keyTimes='0;0.95833333333333;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path23'>
+            • Completed cybertraining on monitoring and investigating computer 
+        </textPath>
+    </text>
+        <path id='path24'>
+                            <!-- Multiline -->
+                                <animate id='d24' attributeName='d' begin='0s'
+                    dur='25000ms' fill="freeze"
+                    values='m0,625 h0 ; m0,625 h0 ; m0,625 h800 ; m0,625 h800' keyTimes='0;0.96;1;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#0086F7' font-size='20'
+        dominant-baseline='auto'
+        x='0%' text-anchor='start'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path24'>
+            attacks
+        </textPath>
+    </text>
+</svg>
