@@ -1,52 +1,40 @@
-<h1 align="center"><i>Hi there! My name is Dmitriy)✌️</i></h1>
-<h2 align="center"><i>I am an IT specialist from Russia 🇷🇺</i></h2>
+<head>
+  <style>
+    .fade {
+      opacity: 0;
+      animation: show 0.6s forwards;
+    }
 
+    .d1 { animation-delay: 0.2s; }
+    .d2 { animation-delay: 1.0s; }
+    .d3 { animation-delay: 0s; } /* задержку делаем в JS */
+    .d4 { animation-delay: 25.0s; }
 
+    @keyframes show {
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="fade d1" align="center"><img src="svg/1.svg"></h1>
+  <h2 class="fade d2"><img src="svg/2.svg"></h2>
 
-💻 <i>If you take a look at my repositories, you can find many different instructions that I think you will like) I try to work with all Linux and Windows operating systems including server versions and put everything only the most necessary on <a href="https://github.com">GitHub.com</a><i/>
+  <!-- svg3 не загружается сразу -->
+  <h3 id="h3">
+    <img id="svg3" data-src="svg/3.svg" alt="">
+  </h3>
 
-<h4><i>I am also certified in:</i></h4>
+  <h4 class="fade d4">
+    <a href="https://git.io/streak-stats">
+      <img src="https://komarev.com/ghpvc/?username=dimoroz772&color=blueviolet">
+    </a>
+  </h4>
 
-&#8226;  <i>CCNA Security<i/><br/>
-
-&#8226;  <i>CCNA Routing and Switching: Routing and Switching Essentials<i/><br/>
-
-&#8226;  <i>CCNA Routing and Switching: Introduction to Networks<i/><br/>
-
-&#8226;  <i>I am also an expert in evaluating demonstration exams in Network and System Administration<i/><br/>
-
-&#8226;  <i>Certified specialist of the Russian operating system Linux RedOS<i/><br/>
-
-&#8226;  <i>Certified specialist in the course Administration and diagnostics TATLIN.UNIFIED GEN2<i/><br/>
-
-&#8226;  <i>Certified specialist in the course Architecture and capabilities of TATLIN.UNIFIED GEN2<i/><br/>
-
-<h4> <i>At the moment, all my work instructions can be found in the following repositories:</i></h4>
-
-<i>&#8226; <a href="https://github.com/dimoroz772/Domain_connection_between_Linux_and_Windows">Domain_connection_between_Linux_and_Windows</a><br/><i/>
-
-<i>&#8226; <a href="https://github.com/dimoroz772/Linux_RedOS">Linux_RedOS</a><br/><i/>
-
-<i>&#8226; <a href="https://github.com/dimoroz772/Linux_CentOS">Linux_CentOS</a><br/><i/>
-
-<i>&#8226; <a href="https://github.com/dimoroz772/Linux_ALT">Linux_ALT</a><br/><i/>
-
-<i>&#8226; <a href="https://github.com/dimoroz772/Linux_Fedora">Linux_Fedora</a><br/><i/>
-
-<i>&#8226; <a href="https://github.com/dimoroz772/Linux_Astra">Linux_Astra</a><br/><i/>
-
-<i>&#8226; <a href="https://github.com/dimoroz772/Scripts">Scripts</a><br/><i/>
-
-<i>&#8226; <a href="https://github.com/dimoroz772/Windows_Upgrade_Or_Install_Keys">Windows_Upgrade_Or_Install_Keys</a><br/><i/>
-
-<i>&#8226; <a href="https://github.com/dimoroz772/DDT4ALL">DDT4ALL</a><br/><i/>
-
-<i>&#8226; <a href="https://github.com/dimoroz772/My_ideal_software_IT-environment">My_ideal_software_IT-environment</a><br/><i/>
- <br/>
-<i>I hope that you will find something new and interesting for yourself in the repositories of my profile) Peaceful sky to all!)<i/>
- <br/>
- <br/>
-
-<p align="left">
-<a href="https://git.io/streak-stats"><img src="https://komarev.com/ghpvc/?username=dimoroz772&color=blueviolet"/></a>
-</p>
+  <script>
+    setTimeout(() => {
+      const img = document.getElementById('svg3');
+      img.src = img.dataset.src;
+      img.classList.add('fade', 'd3'); // старт анимации
+    }, 12000);
+  </script>
+</body>
