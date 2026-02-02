@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260">
+  <!-- 1 -->
+  <image href="https://raw.githubusercontent.com/USER/REPO/main/svg/1.svg"
+         x="0" y="0" width="800" height="80" opacity="0"
+         preserveAspectRatio="xMidYMin meet">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.2s" fill="freeze"/>
+  </image>
+
+  <!-- 2 -->
+  <image href="https://raw.githubusercontent.com/USER/REPO/main/svg/2.svg"
+         x="0" y="90" width="800" height="80" opacity="0"
+         preserveAspectRatio="xMidYMin meet">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1s" fill="freeze"/>
+  </image>
+
+  <!-- 3 (появляется через 12s) -->
+  <image href="https://raw.githubusercontent.com/USER/REPO/main/svg/3.svg"
+         x="0" y="180" width="800" height="80" opacity="0"
+         preserveAspectRatio="xMidYMin meet">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="12s" fill="freeze"/>
+  </image>
+</svg>
