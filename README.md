@@ -1,5 +1,5 @@
-<h1 align="center"><img src="svg/https://github.com/dimoroz772/dimoroz772/blob/Website/svg/1.svg"></h1>
-
+<h1 align="center"><img src="svg/https://raw.githubusercontent.com/dimoroz772/dimoroz772/blob/Website/svg/1.svg"></h1>
+<h1 align="center"><img src="svg/1.svg"></h1>
 <h2 align="center"><i>I am an IT specialist from Russia 🇷🇺</i></h2>
 
 
